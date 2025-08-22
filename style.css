@@ -1,0 +1,401 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+    .header {
+    background: linear-gradient(to bottom, #f8b17a, #d18e6f);
+      font-family: 'Libre Baskerville', serif;
+      width: 100%;
+      height: 70px;
+      font-family: 'Great Vibes', cursive;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px;
+      background-color: rgba(255, 255, 255, 0.1);
+      box-sizing: border-box;
+    }
+    .logo-section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-text {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .studio-name {
+      font-family: 'Great Vibes', cursive;
+      font-size: 18px;
+      margin-left: 5px;
+      color: #2b2b2b;
+    }
+    .nav-links {
+      display: flex;
+      gap: 25px;
+      margin-left: 20rem;
+      height: auto;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #2b2b2b;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: lowercase;
+    }
+
+    .menu-icon {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+
+    .container {
+    background: url(pic2.jpg) no-repeat center center/cover;
+    background: linear-gradient(to bottom, #f8b17a, #d18e6f);
+      font-family: 'Libre Baskerville', serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 50px 20px;
+       background-image: url(pic2.jpg);
+    
+      
+    }
+
+    .images-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5rem;
+    }
+
+    .image-box {
+      width: 13rem;
+      height: 20rem;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 2px solid #fff;
+    }
+
+
+    .image-box.center {
+      width: 20rem;
+      height: 30rem;
+      border-radius: 10rem 10rem 0px 0px;
+    }
+
+    .image-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .main-text {
+      font-family: 'Great Vibes', cursive;
+      font-size: 4rem;
+      text-align: start;
+      color: white;
+      text-shadow: 1px 1px 2px black;
+      position: absolute;
+      top: 21rem;
+    }
+
+    .book-btn {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 2rem;
+      margin-left: -48rem;
+    }
+
+    .book-btn:hover {
+      background-color: #444;
+    }
+
+   
+    
+
+    .welcome-section {
+      width: 100%;
+      height: 300px;
+      background: url(pic1.jpg) no-repeat center center/cover;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(pic1.jpg);
+    }
+
+    .welcome-overlay {
+      width: auto;
+      padding: 30px;
+      text-align: center;
+      max-width: 80%;
+      border-radius: 8px;
+    }
+
+    .welcome-title {
+      font-family: 'Great Vibes', cursive;
+      font-size: 32px;
+      color: #2b2b2b;
+      margin-bottom: 10px;
+    }
+
+    .welcome-text {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 16px;
+      color: #2b2b2b;
+      line-height: 1.6;
+    }
+
+    
+
+    
+    .services-section {
+       flex-direction: row;
+    font-family: 'Libre Baskerville', serif;
+     background: linear-gradient(to bottom, #f8b17a, #e9aa7b);
+      text-align: center;
+      background-image:  url(222.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .services-title {
+      font-family: 'Great Vibes', cursive;
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: #2b2b2b;
+    }
+
+    .services-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .service-card {
+      background-color: beige;
+      width: 260px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .service-title {
+      font-family: 'Great Vibes', cursive;
+      font-size: 22px;
+      color: #2b2b2b;
+      margin-bottom: 10px;
+    }
+
+    .service-text {
+      font-size: 14px;
+      color: #2b2b2b;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+
+    .learn-more-btn {
+      background-color: #ddd;
+      color: #2b2b2b;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .learn-more-btn:hover {
+      background-color: #ccc;
+    }
+
+   
+    .lifetime-section {
+      width: 100%;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      padding: 0 40px;
+      box-sizing: border-box;
+      color: #2b2b2b;
+      font-family: 'Libre Baskerville', serif;
+      background-image: url(bg\ \(2\).jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .lifetime-content {
+      
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+    }
+
+    .lifetime-title {
+      font-family: 'Great Vibes', cursive;
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    .lifetime-text {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .book-now-btn {
+      background-color: #ddd;
+      color: #2b2b2b;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-left: 40rem;
+    }
+
+    .book-now-btn:hover {
+      background-color: #bbb;
+      
+    }
+
+
+    .contact-section {
+     font-family: 'Libre Baskerville', serif;
+      width: 100%;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #2b2b2b;
+      background-image: url(teeeee.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .contact-content {
+      background-color: rgba(255, 255, 255, 0.6);
+      padding: 30px 40px;
+      border-radius: 10px;
+      max-width: 600px;
+    }
+
+    .contact-title {
+      font-family: 'Great Vibes', cursive;
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .contact-text {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .contact-btn {
+      background-color: #dcd9ef;
+      color: #2b2b2b;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-btn:hover {
+      background-color: #c3c0db;
+    }
+
+   
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Libre Baskerville', serif;
+    }
+
+    .footer {
+      background: url(222.jpg) no-repeat center center/cover;
+      padding: 40px 50px 20px;
+      color: #2b2b2b;
+      flex-direction: row;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 40px;
+      margin-bottom: 30px;
+    }
+
+    .footer-logo {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .footer-brand {
+      font-family: 'Great Vibes', cursive;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .footer-text {
+      font-style: italic;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .footer-section h4 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .footer-section p,
+    .footer-section a {
+      font-size: 14px;
+      color: #2b2b2b;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .footer-section a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      font-size: 14px;
+      color: #444;
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
+      padding-top: 15px;
+    }
+
+    
+    .footer-section i {
+      margin-right: 8px;
+    }
